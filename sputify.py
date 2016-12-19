@@ -7,7 +7,7 @@ import time
 import random
 import spotipy
 import spotipy.util as util
-from credentials import credentials
+from login_info import credentials
 
 def urlSanityCheck():
     list_url = input("\nlist url >>> ")
